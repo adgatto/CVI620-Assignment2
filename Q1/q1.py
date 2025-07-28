@@ -5,12 +5,6 @@ from sklearn.linear_model import LinearRegression, SGDRegressor
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_absolute_error, mean_squared_error, mean_absolute_percentage_error
 
-# 1.	In Folder Q1, there is a dataset in which we aim to estimate the house price using two features: the number of bedrooms and the basement area.
-
-# Use Multiple Linear Regression for this task. Display the coefficients of the model and calculate the MAE (Mean Absolute Error) and MSE (Mean Squared Error). Search about RMSE (Root Mean Squared Error) and explain the trade-offs between these metrics. Finally report RMSE score of your model.
-# Perform this task using both LinearRegression and SGDRegressor.
-# Additionally, study the MAPE (Mean Absolute Percentage Error) metric using this link, and apply it to evaluate your model.
-
 # DATA
 dataset = pd.read_csv('./house_price.csv')
 X = dataset [['size', 'bedroom']]
