@@ -4,6 +4,7 @@ import numpy as np
 from joblib import load
 import glob
 
+
 # MODEL
 model = load('cat_dog_classifier.joblib')
 
